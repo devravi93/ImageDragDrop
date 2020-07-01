@@ -1,0 +1,13 @@
+<div
+  style="width: 500px; height: 250px; text-align: center;"
+  appImageDrag
+  (files)="filesDropped($event)"
+>
+  <span style="font-size: 25px;">Drop your files here</span>
+</div>
+
+<div style="margin-top: 20px; width: 500px; height: 400px;">
+  <div *ngFor="let file of uploadedFiles">
+    <img [src]="file.url" style="width: 100px; height: 100px;" />
+  </div>
+</div>

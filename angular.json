@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ImageDragDrop"
+    }
+  },
+  "defaultProject": "ImageDragDrop",
+  "cli": {
+    "analytics": false
+  }
 }
